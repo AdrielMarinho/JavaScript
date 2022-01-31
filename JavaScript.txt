@@ -1,0 +1,89 @@
+JavaScript
+    O que faz o JavaScript?
+        Cliente x Servidor
+        Ex:
+            Caso você esteja vendo um vídeo, o aparelho que você está
+            utilizando são clientes como:
+            Computadores e celulares.
+              Você está utilizando um serviço fornecido por um
+              servidor.
+            Ou seja nesse exato momento (vídeo), você está pegando
+            dados dos servidores do YouTube.
+              E esses servidores são máquinas de alta performance que
+              estão fornecendo os dados que são os vídeos.
+            Independente do que você use, no momento em que você usa
+            um dispositivo, ele é um cliente que precisa de dados de
+            um servidor (as vezes até mais que 1 servidor).
+
+            Esse acesso é feito através de um navegador.
+              E o site que você entrar (URL), vai para a infraestrutura
+              da internet e ela te responde exatamente para qual
+              servidor você vai ser desviado.
+                 E de qualquer maneira a infraestrutura da internet vai
+                 chegar a um determinado servidor.
+
+            Servidor
+             São máquinas parecidas com a do cliente porém com pastas
+             e arquivos no qual o usuário está interessado, algo que
+             será acessado.
+             Esse acesso é feito é feito da seguinte forma:
+                 Uma cópia do arquivo é feita e é enviada diretamente
+                 para o cliente no seu navegador e apartir daí o
+                 navegador vai começar a gerar o efeito visual do site.
+
+    JavaScript foi criado pela NetScape.
+
+    O JavaScript surgiu como uma tecnologia para clientes só que hoje
+    ele funciona até para servidores.
+
+    E o JavaScript funciona com mais 2 tecnologias sendo 3 no total
+    são elas: HTML, CSS e JS.
+
+    HTML -> Conteúdo, Linguagem de marcação.
+    CSS -> Design, Estilos.
+    JS -> Programação, interação.
+
+    São elas 3 que compõem a parte de cliente da grande maioria dos sites hoje em dia.
+
+    JavaScript evolução
+        JavaScript não tem nada a ver com Java, foi tudo uma jogada de marketing da época,
+        pois a linguagem Java estava muito conhecida, e para pegar a influência eles nomearam
+        como JavaScript (Os nomes iniciais eram Mocca e depois seria LiveScript).
+
+        JavaScript foi para dado para ECMA para ter uma padronização, e com isso foi criado o
+        EcmaScript que é o JavaScript padronizado.
+
+        (Node.js que popularizou o JS do lado do servidor.
+        (V8 é o motor que roda por trás do chrome, ele é código aberto e com isso foi feita uma
+        modificação para que ele rodasse fora do chrome, assim surgindo o Node.js)).
+
+        ECMAScript
+        foi lançada em 1997 (Versão 1.0), foi atualizada em 1998 (Versão 2.0), em 1999 foi atualizada
+        novamente (Versão 3.0), as promessas para próxima versão eram tão grandes que
+        não lançava nunca e somente em 2009 foi lançado a ES5, (foi pulada a versão 4.0), em 2015 lançou
+        a versão ES6, e apartir daí começou a ser lançada 1 por ano, com o nome do ano, ES 2016, ES 2017,
+        ES 2018.
+
+        Várias ferramentas surgiram com a evolução do JS.
+            Angular, Node.js, React, JQuery, Vue, Electron,
+            Ionic, Cordova e etc.
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
