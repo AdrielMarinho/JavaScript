@@ -99,6 +99,9 @@ Comandos
   s.length (me diz o tamanho da string)
   s.toUpperCase (coloca a string toda em maiúsculo)
   s.toLowerCase (coloca a string toda em minúsculo)
+  n1.toFixed() (coloca a quantidade de casas decimais que você quer no número)
+  n1.replace("", "") (troca uma coisa por outra)
+  n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) (amostra o R$)
 
 Formatação de Strings
   var s = 'JavaScript'
