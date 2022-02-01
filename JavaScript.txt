@@ -102,15 +102,80 @@ Comandos
   n1.toFixed() (coloca a quantidade de casas decimais que você quer no número)
   n1.replace("", "") (troca uma coisa por outra)
   n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) (amostra o R$)
+  document.write() (escreve na tela)
+  p1.innerText (pega o texto p1)
+  p1.innerHTML (pega toda a tag HTML de p1 (Formatação))
 
   Operador aritmético
   ** = simboliza a potência em JS
+
+  O JS testa o valor da variável e não o o tipo
+   5 == 5 (true)
+   5 == '5' (true)
+  Mas temos também o Operador de identidade ou igualdade restrita, mesma coisa com o desigual restrito 
+   5 === '5' (false) (testa se eles são do mesmo valor e do mesmo tipo)
+   === (idêntico)
+   !== (desigual em tipos)
+   5 === 5 (true)
+
+  Operadores Lógicos
+    Primeiro o ! depois o && e depois o ||, essa é a ordem se eles estiverem juntos.
+
+  Operador Ternário
+    Testa uma expressão, ele junta 3 operandos -> ?, :
+    teste ? true : false
+    (o que vai acontecer quando ele for verdadeiro ou falso -> teste ? true : false)
+    média >= 7 ? "Aprovado" : "Reprovado"
 
 Formatação de Strings
   var s = 'JavaScript'
   'Eu estou aprendendo s'    Não faz interpolação
   'Eu estou aprendendo' + s  Faz concatenação
   `Eu estou aprendendo ${s}` Usa template String
+
+
+DOM (Document Object Model)
+  Conjunto de objetos dentro do navegador que dá acesso aos componentes internos do seu website.
+  Não funciona dentro do NodeJS
+  Ele está presente quando está rodando o JS dentro do navegador.
+
+Árvore DOM
+  Começa na raiz, chamada de window
+    Dentro do window temos vários outros objetos, 3 exemplos
+      location, document e history.
+
+      location : qual a localização do seu site, URL, qual a página atual, qual foi a página anterior.
+      document : documento atual.
+      history : guarda de onde você veio e para onde você vai, facilita a navegação do site.
+
+    Dentro do document temos um documento muito importante o HTML
+      É exatamente a parte HTML do site
+
+      Dentro de HTML temos head e body
+        Dentro de head temos várias tags como meta, title
+        Dentro de body temos h1, p, p, div (no site que está sendo criado com base na aula 09 do Gustavo Guanabara)
+        Dentro do segundo p temos strong
+
+Existem várias maneiras de acessar os metodos DOM
+  Umas delas são
+    por Marca
+      getElementsByTagName()[Posição do elemento em ordem] (consegue selecionar mais de 1 objeto pois existem objetos de vários tipos da mesma tag)
+
+    por ID
+      getElementById() (seleciona por id)
+
+    por Nome
+      getElementsByName()[] (seleciona por nome, e caso tenha mais de 1 objeto com mesmo nome colocar dentro dos colchetes a posição desse objeto)
+
+    por Classe
+      getElementsByClassName()[] (seleciona por classe, e tem que colocar a posição)
+
+    por Seletor
+      querySelector()
+      querySelectorAll() (essa é a forma de selecionar no plural)
+
+      div é representada por uma #
+      class é representada por um .
 
 
 
