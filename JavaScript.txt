@@ -69,7 +69,28 @@ JavaScript
             Ionic, Cordova e etc.
 
 
-    
+    Tipos de dados JS (Data Types)
+      3 tipos "principais / primitivos"
+        Number, String, Boolean
+
+          Number : Int, Float, a variações como Infinity e NaN (Not a Number).
+          String : Letras.
+          Boolean : Verdadeiro ou Falso (True or False).
+
+      Temos também os tipos Objects(Arrays (Vetores)), Undefined, Null (O tipo dele é de um Object) e Function.
+
+    As variáveis não tem um valor fixado, pois quando são criadas utilizamos "var" ou "let" para criar uma variável.
+      Ex:
+        var n1 = 8
+        Se eu printar vai aparecer que n1 é 8, porém se eu fizer
+        n1 = "teste"
+        A princípio daria erro, mas como as variáveis não são int n1 ou String n1 não dá erro, por elas serem var n1, ela se torna flexível e recebe qualquer valor que colocarmos.
+        E com isso se printarmos novamente vai aparecer "teste".
+
+Comandos
+  window.prompt (abre uma tela no qual o usuário digita algo)
+  window.alert (abre uma caixa com "alerta" ou "texto")
+  window.confirm (abre uma caixa com uma mensagem e dois botões, confirmar e cancelar)
 
 
 
