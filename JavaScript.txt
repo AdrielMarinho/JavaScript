@@ -103,6 +103,9 @@ Comandos
   n1.replace("", "") (troca uma coisa por outra)
   n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) (amostra o R$)
 
+  Operador aritmético
+  ** = simboliza a potência em JS
+
 Formatação de Strings
   var s = 'JavaScript'
   'Eu estou aprendendo s'    Não faz interpolação
