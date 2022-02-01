@@ -91,6 +91,17 @@ Comandos
   window.prompt (abre uma tela no qual o usuário digita algo)
   window.alert (abre uma caixa com "alerta" ou "texto")
   window.confirm (abre uma caixa com uma mensagem e dois botões, confirmar e cancelar)
+  Number.parseInt() (transforma um valor em inteiro)
+  Number.parseFloat() (transforma um valor em real)
+  Number() (o JS analisa e decide qual é o valor que será transformado)
+  String() (o JS transforma em string)
+  n.toString () (o JS transforma a variável "n" em String)
+
+Formatação de Strings
+  var s = 'JavaScript'
+  'Eu estou aprendendo s'    Não faz interpolação
+  'Eu estou aprendendo' + s  Faz concatenação
+  `Eu estou aprendendo ${s}` Usa template String
 
 
 
