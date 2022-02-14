@@ -151,8 +151,8 @@ DOM (Document Object Model)
     Dentro do document temos um documento muito importante o HTML
       É exatamente a parte HTML do site
 
-      Dentro de HTML temos head e body
-        Dentro de head temos várias tags como meta, title
+      Dentro de HTML temos head e body (HTML é o PARENT de head e body)
+        Dentro de head temos várias tags como meta, title (que são as CHILD de head)
         Dentro de body temos h1, p, p, div (no site que está sendo criado com base na aula 09 do Gustavo Guanabara)
         Dentro do segundo p temos strong
 
@@ -176,6 +176,29 @@ Existem várias maneiras de acessar os metodos DOM
 
       div é representada por uma #
       class é representada por um .
+
+Eventos DOM
+  Eventos com mouse
+    mouseenter (Quando o mouse passa pelo objeto, "entra" no objeto)
+    mousemove (Quando move o mouse pelo objeto)
+    mousedown (Quando clica no objeto)
+    mouseup (Quando solta o botão do mouse)
+    click (Apertar e soltar rapidamente)
+    mouseout (Quando vc sai do objeto)
+
+Funções JS
+  São conjunto de códigos que só serão executadas só quando um evento ocorrer.
+    Bloco = grande quantidade de linhas de código.
+      É delimitado no JS pelo sinal de chaves = 
+      function ação(param){
+
+      }
+      (param são opcionais)
+
+      Só são executados quando um evento ocorrer, exemplo
+        Quando clicar dentro da Div a cor muda.
+    
+
 
 
 
