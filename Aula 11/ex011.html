@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Está sendo assumido que o país de origem do usuário é o Brasil</h1>
+    <p>Em qual país você está vivendo?</p>
+    <input type="text" name="txt1" id="txt1">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+            function verificar() {
+                var txt1 = document.querySelector('input#txt1')
+                var result = document.querySelector('div#res')
+                var txtv = txt1.value.toLowerCase()
+                if (txtv == 'brasil') {
+                    result.innerHTML = `Você é Brasileiro!`
+                } else {
+                    result.innerHTML = "Você é Estrangeiro!"
+                }
+            }
+    </script>
+</body>
+</html>

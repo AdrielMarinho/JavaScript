@@ -97,14 +97,15 @@ Comandos
   String() (o JS transforma em string)
   n.toString () (o JS transforma a variável "n" em String)
   s.length (me diz o tamanho da string)
-  s.toUpperCase (coloca a string toda em maiúsculo)
-  s.toLowerCase (coloca a string toda em minúsculo)
+  s.toUpperCase() (coloca a string toda em maiúsculo)
+  s.toLowerCase() (coloca a string toda em minúsculo)
   n1.toFixed() (coloca a quantidade de casas decimais que você quer no número)
   n1.replace("", "") (troca uma coisa por outra)
   n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) (amostra o R$)
   document.write() (escreve na tela)
   p1.innerText (pega o texto p1)
   p1.innerHTML (pega toda a tag HTML de p1 (Formatação))
+  console.log('') (É o print do Node.js)
 
   Operador aritmético
   ** = simboliza a potência em JS
@@ -187,7 +188,7 @@ Eventos DOM
     mouseout (Quando vc sai do objeto)
 
 Funções JS
-  São conjunto de códigos que só serão executadas só quando um evento ocorrer.
+  São conjunto de códigos que só serão executadas quando um evento ocorrer.
     Bloco = grande quantidade de linhas de código.
       É delimitado no JS pelo sinal de chaves = 
       function ação(param){
@@ -197,6 +198,13 @@ Funções JS
 
       Só são executados quando um evento ocorrer, exemplo
         Quando clicar dentro da Div a cor muda.
+
+Condições JS
+  Tipos de Condições
+    Condição Simples
+      Só tem 1 bloco, com a condição sempre sendo verdadeira para poder ser executada.
+
+  
     
 
 
