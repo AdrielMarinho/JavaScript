@@ -106,6 +106,8 @@ Comandos
   p1.innerText (pega o texto p1)
   p1.innerHTML (pega toda a tag HTML de p1 (Formatação))
   console.log('') (É o print do Node.js)
+  var hora = new Date() (comando para pegar a data e hora do sistema)
+  var hora1 = hora.getHours (pega exatamente as horas do sistema)
 
   Operador aritmético
   ** = simboliza a potência em JS
@@ -203,9 +205,53 @@ Condições JS
   Tipos de Condições
     Condição Simples
       Só tem 1 bloco, com a condição sempre sendo verdadeira para poder ser executada.
+      Ex:
+        if (condição) {
+          bloco1
+        }
 
+    Condição Composta
+      Tem 2 blocos, quando uma condição não é verdadeira ele executa a a outra
+      Ex:
+        if (condição) {
+          bloco1
+        } else {
+          bloco2
+        }
   
-    
+    Condição Aninhada
+      É uma condição composta, com outras condições dentro dela
+      Ex:
+        if (condição 1) {
+          bloco1
+        } else {
+          if (condição 2) {
+            bloco2
+          } else {
+            bloco3
+          }
+        }
+
+    Condição Múltipla (Switch (expressão) {} )
+    É uma condição que serve para valores fixos.
+    Tem uma expressão, são testados vários valores e depois volta para o fluxo normal do programa.
+    Não é aplicavel para todos os tipos de situações.
+    Só funciona com números inteiros ou strings.
+      Ex:
+        Switch (expressão) {
+          case valor1:
+            Bloco1
+            break; (O break (todos eles menos o último, mas é bom colocar também) são obrigatórios)
+          case valor2:
+            Bloco2
+            break;
+          case valor3:
+            Bloco3
+            break;
+          default:
+            Bloco4
+            break;
+        }
 
 
 
