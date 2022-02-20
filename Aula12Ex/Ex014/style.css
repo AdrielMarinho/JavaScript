@@ -3,6 +3,11 @@ body {
     font: normal 1.2rem Arial;
 }
 
+img {
+    width: 100%;
+    position: relative;
+}
+
 header {
     color: white;
     text-align: center;
@@ -15,6 +20,12 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+}
+
+#foto {
+    clip-path: circle();
+    width: 30rem;
+    height: 15rem;
 }
 
 footer {
