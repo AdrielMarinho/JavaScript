@@ -8,6 +8,10 @@ img {
     position: relative;
 }
 
+div#msg {
+    margin-bottom: 1rem;
+}
+
 header {
     color: white;
     text-align: center;
@@ -20,6 +24,10 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
+}
+
+div {
+    text-align: center;
 }
 
 #foto {
